@@ -9,4 +9,8 @@ brew "aws/tap/aws-sam-cli"
 brew "awscli"
 
 # Casks
+cask "amazon-chime"
 cask "microsoft-office"
+
+# Mac App Store Apps
+mas "Okta Extension App", id: 1439967473
