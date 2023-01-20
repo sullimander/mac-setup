@@ -3,6 +3,9 @@
 tap "tinygo-org/tools"
 
 # Homebrew packages
+brew "elixir"
+brew "erlang"
+brew "rustup-init"
 brew "tinygo-org/tools/tinygo"
 brew "youtube-dl"
 
@@ -13,11 +16,14 @@ cask "discord"
 cask "elgato-stream-deck"
 cask "handbrake"
 cask "kindle"
+cask "little-snitch"
+cask "numi"
 cask "openemu-experimental"
 cask "orion"
 cask "zsa-wally"
 
 # Mac App Store Apps
+mas "Data Jar", id: 1453273600
 mas "Mela", id: 1568924476
 mas "Pixelmator Pro", id: 1289583905
 mas "Playgrounds", id: 1496833156
